@@ -39,7 +39,7 @@ We'll be using:
   * [x] Generate Express App
   * [x] git init
 * [ ] Convert Express App to JSON API
-  * [ ] Remove view rendering/views folder
+  * [x] Remove view rendering/views folder
   * [ ] Remove routes folder
   * [ ] Remove static serve and public folder
   * [ ] Update error handler
