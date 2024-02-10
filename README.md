@@ -40,7 +40,7 @@ We'll be using:
   * [x] git init
 * [ ] Convert Express App to JSON API
   * [x] Remove view rendering/views folder
-  * [ ] Remove routes folder
+  * [x] Remove routes folder
   * [ ] Remove static serve and public folder
   * [ ] Update error handler
   * [ ] Add GET `/` endpoint
