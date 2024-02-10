@@ -10,18 +10,18 @@ We'll be using:
   * Vanilla JavaScript for DOM Manipulation and fetch for AJAX requests
   * Bootstrap for style and layout
 * Server:
-  * Postgres for our database
+  * Mysql for our database
   * knex.js for our database migrations, seeds and queries.
   * express.js for our JSON routes
 
 * Prerequisites (Mac OS Commands)
   * Latest version of Node.js
     * brew install node
-  * lite-server
+  * lite-server or live server vscode
     * npm install -g lite-server
-  * Postgres
-    * brew install postgres
-    * brew services start postgres
+  * Mysql
+    * brew install mysql
+    * brew services start mysql
     * createdb
   * Express Generator
     * npm install -g express-generator
