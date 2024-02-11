@@ -65,10 +65,10 @@ We'll be using:
   * [x] Append to DOM
   * [x] Each product links to /product.html?id=:id
   * [x] Display a link to /create.html
-* [ ] Show one record with GET /api/v1/products/:id
-  * [ ] Validate id
-  * [ ] Create query
-  * [ ] Create route
+* [x] Show one record with GET /api/v1/products/:id
+  * [x] Validate id
+  * [x] Create query
+  * [x] Create route
 * [ ] Show one record in /product.html?id=:id
   * [ ] Parse query string to get id
   * [ ] AJAX Request to GET /products/:id

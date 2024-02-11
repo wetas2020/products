@@ -10,4 +10,22 @@ router.get('/', (req, res) => {
     });
 });
 
+router.get('/:id', (req, res) => {
+    if (isNaN(req.params.id)) {
+        res.status(400).json({
+            error: 'Invalid ID'
+        });
+    } else {
+        queries.getOne(req.params.id).then((product) => {
+            if (product) {
+                res.json(product);
+            } else {
+                res.status(404).json({
+                    error: 'Not Found'
+                });
+            }
+        });
+    }
+});
+
 module.exports = router;
