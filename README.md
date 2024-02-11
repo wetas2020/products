@@ -42,7 +42,7 @@ We'll be using:
   * [x] Remove view rendering/views folder
   * [x] Remove routes folder
   * [x] Remove static serve and public folder
-  * [ ] Update error handler
+  * [x] Update error handler
   * [ ] Add GET `/` endpoint
 * [ ] Client: Try to make a request
   * [ ] See the CORS error and remember this moment
