@@ -60,11 +60,11 @@ We'll be using:
 * [x] List all records with GET /api/v1/products
   * [x] Create query
   * [x] Create route
-* [ ] List all records in /index.html
-  * [ ] AJAX Request to GET /products
-  * [ ] Append to DOM
-  * [ ] Each product links to /product.html?id=:id
-  * [ ] Display a link to /create.html
+* [x] List all records in /index.html
+  * [x] AJAX Request to GET /products
+  * [x] Append to DOM
+  * [x] Each product links to /product.html?id=:id
+  * [x] Display a link to /create.html
 * [ ] Show one record with GET /api/v1/products/:id
   * [ ] Validate id
   * [ ] Create query
