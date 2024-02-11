@@ -47,11 +47,11 @@ We'll be using:
 * [x] Client: Try to make a request
   * [x] See the CORS error and remember this moment
   * [x] Add CORS to the API
-* [ ] Create database
-* [ ] Initialize knex project
-  * [ ] Install knex and pg
-  * [ ] Create knexfile.js
-* [ ] Create product table migration
+* [x] Create database
+* [x] Initialize knex project
+  * [x] Install knex and mysql
+  * [x] Create knexfile.js
+* [x] Create product table migration
 * [ ] Seed product table with sample data
 * [ ] Add api folder and create/mount router
 * [ ] Connect to the database
