@@ -38,12 +38,12 @@ We'll be using:
 * [x] Create a server folder
   * [x] Generate Express App
   * [x] git init
-* [ ] Convert Express App to JSON API
+* [x] Convert Express App to JSON API
   * [x] Remove view rendering/views folder
   * [x] Remove routes folder
   * [x] Remove static serve and public folder
   * [x] Update error handler
-  * [ ] Add GET `/` endpoint
+  * [x] Add GET `/` endpoint
 * [ ] Client: Try to make a request
   * [ ] See the CORS error and remember this moment
   * [ ] Add CORS to the API
