@@ -44,9 +44,9 @@ We'll be using:
   * [x] Remove static serve and public folder
   * [x] Update error handler
   * [x] Add GET `/` endpoint
-* [ ] Client: Try to make a request
-  * [ ] See the CORS error and remember this moment
-  * [ ] Add CORS to the API
+* [x] Client: Try to make a request
+  * [x] See the CORS error and remember this moment
+  * [x] Add CORS to the API
 * [ ] Create database
 * [ ] Initialize knex project
   * [ ] Install knex and pg
