@@ -57,9 +57,9 @@ We'll be using:
 * [x] Connect to the database
   * [x] Create database connection file
   * [x] Create a queries file
-* [ ] List all records with GET /api/v1/products
-  * [ ] Create query
-  * [ ] Create route
+* [x] List all records with GET /api/v1/products
+  * [x] Create query
+  * [x] Create route
 * [ ] List all records in /index.html
   * [ ] AJAX Request to GET /products
   * [ ] Append to DOM
