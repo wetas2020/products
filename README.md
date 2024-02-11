@@ -53,7 +53,7 @@ We'll be using:
   * [x] Create knexfile.js
 * [x] Create product table migration
 * [x] Seed product table with sample data
-* [ ] Add api folder and create/mount router
+* [x] Add api folder and create/mount router
 * [ ] Connect to the database
   * [ ] Create database connection file
   * [ ] Create a queries file
