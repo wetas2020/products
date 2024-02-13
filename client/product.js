@@ -3,10 +3,6 @@ const productSection = document.querySelector('main section');
 
 getProduct(product_id).then(showProduct);
 
-function getProduct(id) {
-    return fetch(`${API_URL}/${id}`).then((res) => res.json());
-}
-
 function showProduct(product) {
     productSection.innerHTML = `
     <div class="card">

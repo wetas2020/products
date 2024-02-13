@@ -89,12 +89,12 @@ We'll be using:
   * [x] Validate id
   * [x] Validate updates
   * [x] Create query
-* [ ] Update one record in /product.html?id=:id
-  * [ ] Display a form with input boxes for all fields
-  * [ ] Display a button to submit the update of the resource
-    * [ ] Validate all inputs
-    * [ ] PUT /products/:id
-    * [ ] Successful update should redirect to /product.html?id=:id
+* [x] Update one record in /product.html?id=:id
+  * [x] Display a form with input boxes for all fields
+  * [x] Display a button to submit the update of the resource
+    * [x] Validate all inputs
+    * [x] PUT /products/:id
+    * [x] Successful update should redirect to /product.html?id=:id
 * [ ] Delete a record with DELETE /api/v1/products/:id
   * [ ] Create route
   * [ ] Validate id

@@ -4,3 +4,7 @@ function getIdFromQuery() {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.get('id');
 }
+
+function getProduct(id) {
+    return fetch(`${API_URL}/${id}`).then((res) => res.json());
+}
