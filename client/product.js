@@ -13,7 +13,21 @@ function showProduct(product) {
             <p class="card-text">$${product.price}</p>
             <p class="card-text">${product.quantity} left in stock</p>
             <a href="/edit.html?id=${product.id}" class="btn btn-success">Edit Product</a>
+            <button id="deleteButton" class="btn btn-danger">Delete Product</button>
         </div>
     </div>
 `;
+
+    const deleteButton = document.querySelector('#deleteButton');
+    deleteButton.addEventListener('click', () => {
+        deleteProduct(product.id).then(() => {
+            window.location = '/';
+        });
+    });
+}
+
+function deleteProduct(id) {
+    return fetch(`${API_URL}/${id}`, {
+        method: 'DELETE'
+    }).then((res) => res.json());
 }

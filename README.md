@@ -99,10 +99,10 @@ We'll be using:
   * [x] Create route
   * [x] Validate id
   * [x] Create query
-* [ ] Delete a record
-  * [ ] Add a delete button to the /product.html page
-    * [ ] DELETE /products/:id
-    * [ ] Successful deletion should redirect to index.html
+* [x] Delete a record
+  * [x] Add a delete button to the /product.html page
+    * [x] DELETE /products/:id
+    * [x] Successful deletion should redirect to index.html
 * [ ] Deploy server to Heroku
   * [ ] Signup and login to heroku
   * [ ] Install the heroku CLI
