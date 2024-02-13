@@ -60,4 +60,26 @@ router.post('/', (req, res) => {
         });
     }
 });
+
+router.put('/:id', (req, res) => {
+    // validate id
+    if (isNaN(req.params.id)) {
+        res.status(400).json({
+            error: 'Invalid ID'
+        });
+    }
+    // validate product
+    if (validProduct(req.body)) {
+        queries.update(req.params.id, req.body).then((product) => {
+            res.json({
+                message: 'Updated'
+            });
+        });
+    } else {
+        res.status(400).json({
+            error: 'Invalid Product'
+        });
+    }
+});
+
 module.exports = router;
