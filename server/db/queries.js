@@ -8,7 +8,11 @@ module.exports = {
         return connection('product').where('id', id).first();
     },
     create(product) {
-        return connection('product').insert(product, 'id');
+        return connection('product')
+            .insert(product, 'id')
+            .then((ids) => {
+                return ids[0];
+            });
     },
     update(id, product) {
         return connection('product').where('id', id).update(product);
