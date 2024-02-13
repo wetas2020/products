@@ -9,7 +9,8 @@ function validProduct(product) {
     // const hasDescription =
     //     typeof product.description == 'string' && product.description.trim() != '';
     const hasPrice = !isNaN(product.price);
-    const hasQuantity = !isNaN(product.quantity);
+    const hasQuantity =
+        !isNaN(product.quantity) && product.quantity > 0 && Number.isInteger(product.quantity);
     // const hasImage = typeof product.image == 'string' && product.image.trim() != '';
     return hasTitle && hasPrice && hasQuantity;
 }
