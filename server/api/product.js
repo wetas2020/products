@@ -82,4 +82,18 @@ router.put('/:id', (req, res) => {
     }
 });
 
+router.delete('/:id', (req, res) => {
+    if (isNaN(req.params.id)) {
+        res.status(400).json({
+            error: 'Invalid ID'
+        });
+    } else {
+        queries.delete(req.params.id).then(() => {
+            res.json({
+                message: 'Deleted'
+            });
+        });
+    }
+});
+
 module.exports = router;
